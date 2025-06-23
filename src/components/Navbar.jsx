@@ -102,12 +102,12 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       <motion.div
-        className="md:hidden fixed top-0 left-0 w-full h-full bg-white"
+        className="md:hidden fixed top-0 left-0 w-full h-full bg-gradient-to-br from-purple-50 to-white z-40"
         initial={false}
         animate={menu ? "open" : "closed"}
         variants={variants}
       >
-        <div className="p-8 flex flex-col h-full pt-24">
+        <div className="p-8 flex flex-col h-full pt-24 bg-purple-50">
           <motion.ul
             className="flex-1 flex flex-col items-center justify-center space-y-8"
             initial={{ opacity: 0 }}
