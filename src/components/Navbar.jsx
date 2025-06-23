@@ -102,7 +102,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       <motion.div
-        className="md:hidden fixed top-0 left-0 w-full h-full bg-gradient-to-br from-purple-50 to-white z-40"
+        className="md:hidden fixed top-0 left-0 w-full h-full bg-white"
         initial={false}
         animate={menu ? "open" : "closed"}
         variants={variants}
