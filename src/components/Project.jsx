@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import Easybank from "../assets/easybank.png";
 import Resumpire from "../assets/resumpire.png";
 import TextProcessor from "../assets/textprocessor.png";
-import Companies from "./Companies"; // Assuming you have a Companies component
+import Companies from "./Companies"; 
 const Project = () => {
   const projects = [
     {
@@ -19,8 +19,8 @@ const Project = () => {
       title: "Resumpire",
       description: "Resume builder web application that allows users to create and manage their resumes.",
       image: Resumpire,
-      link: "#",
-      tags: ["React", "Firebase", "Tailwind"]
+      link: "https://resumpire.vercel.app/",
+      tags: ["React", "Firebase", "GSAP", "TailwindCSS"]
     },
     {
       id: 3,
