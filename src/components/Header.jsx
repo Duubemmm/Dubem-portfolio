@@ -1,4 +1,3 @@
-import { Link } from "react-router"
 const Header = () => {
   return (
     <section className="mx-auto flex w-max justify-center gap-8 rounded-full bg-green-100/15 px-8 py-4 text-green-950 backdrop-blur-sm">
