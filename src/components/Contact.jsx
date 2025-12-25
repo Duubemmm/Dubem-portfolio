@@ -17,11 +17,10 @@ const Contact = () => {
           {/* Main Heading */}
           <div className="space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-green-950">
-              Get in <span className="text-green-600">Touch</span>
+              Stay <span className="text-green-600">Connected</span>
             </h2>
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
-              I'm currently looking for new opportunities and my inbox is always open. 
-              Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or want to collaborate, shoot me a message. 
             </p>
           </div>
 

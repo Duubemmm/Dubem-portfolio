@@ -3,7 +3,6 @@ import { useInView } from "react-intersection-observer";
 import WeatherNow from "../assets/WeatherNow.png";
 import CountryRank from "../assets/CountryRank.png";
 import Resumpire from "../assets/resumpire.png";
-console.log(Resumpire);
 
 const Project = () => {
   const projects = [
@@ -52,7 +51,7 @@ const Project = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-green-950 mb-4">
-            My <span className="text-green-600">Projects</span>
+            Projects <span className="text-green-600">I've built </span>
           </h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -60,7 +59,7 @@ const Project = () => {
             transition={{ delay: 0.3 }}
             className="text-xl text-gray-600 max-w-2xl mx-auto"
           >
-            Here are some of my selected works as a{" "}
+            Here are some of my works as a{" "}
             <span className="font-semibold text-green-700">
               Frontend Engineer
             </span>
@@ -171,6 +170,7 @@ const Project = () => {
             </motion.div>
           ))}
         </div>
+        {/* <button>See more of my projects on Github</button> */}
       </div>
     </section>
   );
