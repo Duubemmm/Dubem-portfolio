@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import WeatherNow from "../assets/WeatherNow.png";
 import CountryRank from "../assets/CountryRank.png";
-import Resumpire from "../assets/Resumpire.png";
+import Resumpire from "../assets/resumpire.png";
 console.log(Resumpire);
 
 const Project = () => {
