@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import WeatherNow from "../assets/WeatherNow.png";
+// import WeatherNow from "../assets/WeatherNow.png";
 import CountryRank from "../assets/CountryRank.png";
 import Resumpire from "../assets/resumpire.png";
+import Shophere from "../assets/Shophere.png"
 
 const Project = () => {
   const projects = [
@@ -24,15 +25,23 @@ const Project = () => {
       tags: ["React + Vite", "Firebase", "GSAP", "TailwindCSS"],
       image: Resumpire,
     },
+    // {
+    //   id: 3,
+    //   title: "Weather Now",
+    //   description:
+    //     "A sleek, real-time weather tracking application with clean data visualization.",
+    //   link: "https://weather-now-blond-six.vercel.app/",
+    //   tags: ["React + Vite", "Zustand", "TailwindCSS"],
+    //   image: WeatherNow,
+    // },
     {
-      id: 3,
-      title: "Weather Now",
-      description:
-        "A sleek, real-time weather tracking application with clean data visualization.",
-      link: "https://weather-now-blond-six.vercel.app/",
-      tags: ["React + Vite", "Zustand", "TailwindCSS"],
-      image: WeatherNow,
-    },
+      id:4,
+      title: "ShopHere",
+      description: "ShopHere is a modern e-commerce platform offering seamless online shopping with intuitive navigation and secure checkout—making every purchase effortless and enjoyable",
+      link: "https://shop-here-nine.vercel.app/",
+      tags: ["React + Vite", "Context API", "TailwindCSS"],
+      image: Shophere,
+    }
   ];
 
   const { ref, inView } = useInView({
